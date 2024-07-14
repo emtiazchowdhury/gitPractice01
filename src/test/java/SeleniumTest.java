@@ -27,7 +27,7 @@ public class SeleniumTest {
         System.out.println("In Test1");
         System.out.println(driver.getTitle());
         driver.close();
-        System.out.println("Browser Closed");
+        System.out.println("Browser Closed Now");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         System.out.println("Test Completed");
     }
