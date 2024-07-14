@@ -29,7 +29,7 @@ public class SeleniumTest {
         driver.close();
         System.out.println("Browser Closed");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        System.out.println("Test is now Completed");
+        System.out.println("Test Completed");
     }
 
 }
